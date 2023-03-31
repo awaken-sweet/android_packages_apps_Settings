@@ -232,5 +232,13 @@
             android:summary="@string/display_cutout_force_fullscreen_summary"
             android:fragment="com.android.settings.display.DisplayCutoutForceFullscreenSettings"
             settings:controller="com.android.settings.display.DisplayCutoutForceFullscreenPreferenceController" />
+
+        <!-- Network Traffic -->
+        <Preference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
+            android:fragment="com.android.settings.awaken.fragments.NetworkTrafficSettings"
+            android:defaultValue="false" />
     </PreferenceCategory>
 </PreferenceScreen>
