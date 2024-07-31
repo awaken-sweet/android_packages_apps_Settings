@@ -20,4 +20,8 @@
 
     <!-- Device specific doze package -->
     <string name="config_customDozePackage" translatable="false"></string>
+
+    <!-- Show Force LTE_CA toggle -->
+    <bool name="config_showForceLteCaToggle" translatable="false">false</bool>
+
 </resources>
